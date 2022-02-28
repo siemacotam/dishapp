@@ -1,0 +1,28 @@
+.header{
+    .header__wrap{
+        max-width: 1400px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    .header__title{
+        padding: 10px;
+        font-size: 2rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    .header__btnWrapper{
+        display: flex;
+        align-items: center;
+    }
+    .header__btn {
+        height: 35px;
+        width: 35px;
+        font-size: 1.2rem;
+        margin-right: 10px;
+        background-color: white;
+        border: 1px solid $grey;
+        border-radius: 50%;
+        padding: 5px;
+    }
+}
