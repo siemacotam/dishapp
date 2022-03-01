@@ -6,7 +6,7 @@ export const typeSelect = (dishData, setDishData) => {
     <div className="form__inputWrapper">
       <p className="form__label">Type</p>
       <select
-        className="form__select"
+        className="form__select bigCapital"
         value={dishData.type}
         onChange={(event) =>
           setDishData({ ...dishData, type: event.target.value })

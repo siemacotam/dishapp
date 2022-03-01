@@ -11,13 +11,13 @@ const Header = ({ mode, setMode }) => {
             className={btnStyles(mode, "day")}
             onClick={() => setMode("day")}
           >
-            <i class="fa fa-sun-o" aria-hidden="true"></i>
+            <i className="fa fa-sun-o" aria-hidden="true"></i>
           </button>
           <button
             className={btnStyles(mode, "night")}
             onClick={() => setMode("night")}
           >
-            <i class="fa fa-moon-o" aria-hidden="true"></i>
+            <i className="fa fa-moon-o" aria-hidden="true"></i>
           </button>
         </div>
       </div>

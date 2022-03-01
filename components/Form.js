@@ -66,7 +66,7 @@ const Form = () => {
       {typeSelect(dishData, setDishData)}
       {conditionsInput(conditions, setConditions)}
       <div className="form__btnWrapper">
-        <button className="form__btn" type="submit">
+        <button disabled={validateInfo} className="form__btn" type="submit">
           Wyślij
         </button>
       </div>
