@@ -24,5 +24,11 @@
         border: 1px solid $grey;
         border-radius: 50%;
         padding: 5px;
+        .active {
+            background-color: yellow;
+        }
+    }
+    .header__btn-active {
+        background-color: yellow;
     }
 }

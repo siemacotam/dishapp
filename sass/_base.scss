@@ -14,3 +14,22 @@ body {
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
     border-radius: 0.25rem;
 }
+
+.text-muted {
+    font-size: 0.8rem;
+    color: darken($grey, 30%);
+}
+
+.border-bottom {
+    border-bottom: 1px solid $grey;
+    padding-bottom: 3px;
+    margin-bottom: 3px;
+}
+
+.bigCapital{
+    text-transform: capitalize;
+}
+
+input:invalid {
+    border: 2px solid red;
+  }

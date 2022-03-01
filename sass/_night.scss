@@ -1,0 +1,12 @@
+.header__night {
+    background-color: black;
+    color: white;
+}
+
+.body__night {
+    background-color: darken($grey, 50%);
+}
+
+.footer__night {
+    background-color: darken($grey, 85%);
+}

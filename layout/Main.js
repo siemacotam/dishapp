@@ -1,9 +1,12 @@
 import React from "react";
+import Form from "../components/Form";
 
 const Main = () => {
   return (
     <main className="main">
-      <p>main</p>
+      <div className="main__wrapper shadowItem">
+        <Form />
+      </div>
     </main>
   );
 };

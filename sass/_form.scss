@@ -1,0 +1,52 @@
+.form{
+    max-width: 800px;
+    margin: 0 auto;
+    .form__inputWrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 0;
+    }
+    .form__title {
+        font-weight: bold;
+        text-align: center;
+        border-bottom: 1px solid $grey;
+        padding: 5px;
+        letter-spacing: 1px;
+        font-size: 1.4rem;
+        margin-bottom: 5px;
+    }
+    .form__label {
+        font-weight: bold;
+        flex-basis: 40%;
+    }
+    .form__input, .form__select {
+        padding: 4px;
+        flex-basis: 40%;
+        text-align: center;
+    }
+
+    .form__btnWrapper{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+    .form__btn{
+        border-radius: 10px;
+        border: none;
+        background-color: darken($grey, 30%);
+        color: white;
+        padding: 10px;
+        width: 200px;
+    }
+    .form__validationMsg {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        background-color: $red;
+        color: white;
+        padding: 5px;
+        border-radius: 15px;
+    }
+}
