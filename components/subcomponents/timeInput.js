@@ -5,7 +5,7 @@ export const timeInput = (dishData, setDishData) => {
     <div className="form__inputWrapper">
       <p className="form__label">Cooking time</p>
       <input
-        className="form__input"
+        className="form__input without_ampm"
         type="time"
         step="1"
         min="00:00:00"
