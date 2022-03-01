@@ -4,7 +4,7 @@ import { dishOptions } from "../../utils/selectOptions";
 export const typeSelect = (dishData, setDishData) => {
   return (
     <div className="form__inputWrapper">
-      <p className="form__label">Type</p>
+      <p className="form__label">Type:</p>
       <select
         className="form__select bigCapital"
         value={dishData.type}

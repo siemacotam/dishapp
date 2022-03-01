@@ -6,6 +6,7 @@
         justify-content: space-between;
         align-items: center;
         margin: 20px 0;
+        padding: 10px;
     }
     .form__title {
         text-transform: uppercase;
@@ -62,4 +63,8 @@
     .green {
         background-color: #00CF91;
     }
+}
+
+.form .form__inputWrapper:nth-child(2n){
+    background-color: darken($light-grey, 1%);
 }

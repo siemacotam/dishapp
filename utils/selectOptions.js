@@ -11,9 +11,12 @@ export const conditionsOptions = (conditions, setConditions) => {
   if (conditions.length > 0) {
     return conditions.map((condition) => {
       const { name, value, input, max, min } = condition;
+      const scale = min && max ? ` (${min} - ${max})` : null;
       return (
         <div className="form__inputWrapper" key={name}>
-          <p className="form__label">{name}</p>
+          <p className="form__label">
+            {name} <span>{scale}</span>
+          </p>
           <input
             className="form__input"
             type={input}
