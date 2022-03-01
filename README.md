@@ -9,7 +9,7 @@
 
 ## General info
 
-This is simple recruitment task created in JavaScript.
+This is simple recruitment task created in JavaScript. App is responsive and created using React framework.
 
 ### Technologies
 
