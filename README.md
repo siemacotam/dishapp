@@ -16,7 +16,7 @@ This is simple recruitment task created in JavaScript. App is responsive and cre
 Project is created with :
 
 - React 17.0.2
-- React Context as a store
+- React Context as a store 
 - SASS and SCSS
 - Simple webpack
 

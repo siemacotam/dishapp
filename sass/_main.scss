@@ -4,7 +4,7 @@
     max-width: 1400px;
     margin: 20px auto;
 
-    .main__wrapper {
+    &__wrapper {
         margin: 5px;
         padding: 20px;
         @media(min-width: 800px) {

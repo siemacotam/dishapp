@@ -1,21 +1,21 @@
 .header{
-    .header__wrap{
+    &__wrap{
         max-width: 1400px;
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
     }
-    .header__title{
+    &__title{
         padding: 10px;
         font-size: 2rem;
         font-weight: bold;
         letter-spacing: 2px;
     }
-    .header__btnWrapper{
+    &__btnWrapper{
         display: flex;
         align-items: center;
     }
-    .header__btn {
+    &__btn {
         height: 35px;
         width: 35px;
         font-size: 1.2rem;
@@ -28,7 +28,7 @@
             background-color: yellow;
         }
     }
-    .header__btn-active {
+    &__btn-active {
         background-color: yellow;
     }
 }

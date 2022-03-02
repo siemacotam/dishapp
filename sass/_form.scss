@@ -1,14 +1,14 @@
 .form{
     max-width: 800px;
     margin: 0 auto;
-    .form__inputWrapper{
+    &__inputWrapper{
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin: 20px 0;
         padding: 10px;
     }
-    .form__title {
+    &__title {
         text-transform: uppercase;
         font-weight: bold;
         text-align: center;
@@ -18,22 +18,22 @@
         font-size: 1.4rem;
         margin-bottom: 5px;
     }
-    .form__label {
+    &__label {
         font-weight: bold;
         flex-basis: 40%;
     }
-    .form__input, .form__select {
+    &__input, .form__select {
         padding: 4px;
         flex-basis: 40%;
         text-align: center;
     }
 
-    .form__btnWrapper{
+    &__btnWrapper{
         display: flex;
         justify-content: center;
         margin: 10px;
     }
-    .form__btn{
+    &__btn{
         border-radius: 10px;
         border: none;
         background-color: darken($grey, 30%);
@@ -41,16 +41,16 @@
         padding: 10px;
         width: 200px;
     }
-    .form__btn:disabled{
+    &__btn:disabled{
         background-color: darken($grey, 5%);
     }
-    .form__btn:hover{
+    &__btn:hover{
         background-color: darken($grey, 90%);
     }
-    .form__btn:disabled:hover{
+    &__btn:disabled:hover{
         background-color: darken($grey, 5%);
     }
-    .form__validationMsg {
+    &__validationMsg {
         display: flex;
         justify-content: space-around;
         align-items: center;
